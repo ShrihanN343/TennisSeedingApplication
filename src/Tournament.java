@@ -10,7 +10,7 @@ public class Tournament {
     private final String location;
     private boolean isOver ;
 
-    //constructors - abcdefghj
+    //constructors
     public Tournament(String n, Player[] ps, Calendar d, String l){
         bracket = createBracket(ps);
         players = ps;
